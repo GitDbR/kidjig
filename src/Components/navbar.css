@@ -1,0 +1,21 @@
+.nav{
+    height: 80px;
+    background: rgba(0, 0, 0, 0.2);
+
+}
+.nav_links a{
+    color: #E4E6F2;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.links{
+    width:456px;
+    height:30px;
+}
+
+.btn{
+    border: solid 1px rgba(104, 129, 255, 1);
+    
+
+}

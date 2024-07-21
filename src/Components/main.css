@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: Outfit;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding-inline: 1rem;
+}
+
+.main-container{
+    width: 778px;
+    
+}
+
+.primary-text {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+
+}
+.container span{
+    font-weight: 700;
+    position: relative;
+}
+.container span::after{
+    display: block;
+    content: '';
+    width: 51px;
+    height: 7px;
+    background-color: #7F93FF;
+    position: absolute;
+    top: 60px;
+    left: 3px;
+
+}
+
+.secondary-text {
+    color: #C0C2CC;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    margin-block: 2rem;
+}
+
+.services {
+    background-color: #6A35FF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    }
+
+.learn{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    border: 1px solid #6881FF;
+    background:transparent;
+    margin-left: 1rem;
+}
+
+.special{
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: -0.01em;
+
+}
+
+
+#left{
+    background: linear-gradient(90deg, #1C1C1C 0%, #E3E3E3 50.1%);
+    -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}
+#middle{
+    background: linear-gradient(90deg, #E3E3E3 50.1%, #1C1C1C 100%);
+    -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}
+#right{
+    background: linear-gradient(90deg, #afafafd3 50.1%, #1C1C1C 100%);
+    -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}
+
+@media(max-width:768px){
+    .primary-text {
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: -0.01em;
+    
+    }
+    .secondary-text {
+        color: #C0C2CC;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        margin-block: 1rem;
+    }
+    .container{
+        margin-left: 20px ;
+    }
+    .main-container{
+        margin-left: 90px ;
+    }
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #151515;
+  background: url(./assets/background.png)  ;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  width: 100vw;
+  height: auto;
+}
+
+@media(max-width:768px){
+  body{
+    background: url(./assets/background.png) no-repeat cover center  ;
+
+  }
+}
